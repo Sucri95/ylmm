@@ -1,0 +1,121 @@
+.titulo {
+	width: 100%;
+	margin-top: 47.139px;
+	text-align: center;
+}
+
+.titulo h4 {
+	margin-bottom: 30.096px;
+}
+
+
+.center {
+	float: none;
+	margin: 0 auto;
+}
+
+
+.titulo .green-line {
+	width: 77.446px;
+	height: 4.213px;
+	background: #6ABD46;
+}
+
+
+.main {
+	width: 100%;
+	height: 25em;
+	margin-top: 31px;
+}
+
+.main .registro {
+	height: 369.262px;
+	width: 1158px;
+}
+
+.main .registro .contenedor {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	padding: 42.571px;
+	box-sizing: border-box;
+	padding-left: 93px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.inner {
+	text-align: center;
+}
+
+.inner h4 {
+	 margin-bottom: 35px;
+	 font-weight: 400;
+}
+
+
+.registro .contenedor.left {
+	border-right: 4px solid #C2C2C2;
+}
+
+.registro .contenedor.right {
+	text-align: center;
+
+}
+.registro .contenedor.right input{
+	width: 100%;
+	height: 55.096px;
+	border: 1px solid #B7B7B8;
+	text-indent: 11px;
+	margin-bottom: 13px;
+	outline: none;
+
+
+}
+
+.registro .contenedor.right button{
+	width: 100%;
+	height: 55.096px;
+	text-align: center;
+	background: #6ABD46;
+	color: #000;
+	border: none;
+	font-weight: 700;
+	margin-bottom: 34px;
+}
+
+
+.registro .contenedor.right  label{
+	color: #9D9D9D;
+}
+
+.registro .contenedor.right  label a{ 
+	color: #000;
+}
+
+
+.btn-social {
+    padding: 0.9em;
+    padding-left: 90px!important;
+    padding-right: 50px!important;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-social>:first-child {
+	line-height: 50px!important;
+	padding-right: 8px;
+	padding-left: 6px;
+}
+
+.contenedor.left .inner h4 {
+	margin-top: 1.3em;
+}
+

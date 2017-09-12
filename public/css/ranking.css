@@ -1,0 +1,281 @@
+	* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			text-decoration: none;
+			list-style-type: none;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+
+		.chart-ylmm {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			margin-bottom: 1em;
+		}
+		.chart-ylmm >  .container-chart{
+			width: 100%;
+			height: auto;
+			margin: auto;
+			/*min-height: 400px;*/
+			max-width: 724px;
+			margin-top: 1em;
+			background: white;
+			border: 1px solid #ccc9c9;
+			box-shadow: 1px 1px 1px #b3b3b3;
+		}
+
+		.chart-ylmm >  .container-chart .header{
+			/*
+			margin: 1em 1em 0.5em 1em; 
+			padding-bottom: 1em;
+			border-bottom: 1px solid #ebebe7; */
+
+			padding-bottom: 1em;
+		    height: 4em;
+		    border-bottom: 1px solid #ebebe7;
+		    background: -webkit-linear-gradient(-45deg, #e42693 , #6e39a6);
+		    background: -ms-linear-gradient(-45deg, #e42693 , #6e39a6);
+	
+		}
+
+		.chart-ylmm >  .container-chart .header h2{ 
+			padding-top: 0.7em;
+		}	
+
+
+		.chart-ylmm >  .container-chart .section {
+			width: 100%;
+			height: 8.5em;
+			padding: 1em 0;
+			position: relative;
+		}
+
+		.chart-ylmm >  .container-chart .section:after {
+			content:  '';
+			width: 100%;
+			height: 1px;
+			left: 10%;
+			bottom: 0;
+			background: #ebebe7;
+			position: absolute;
+			transform: translateX(-10%);
+		}
+
+		.chart-ylmm >  .container-chart .section .info,
+		.chart-ylmm >  .container-chart .section .main,
+		.chart-ylmm >  .container-chart .section .vote  {
+			float: left;
+			height:100%;
+		}
+		
+	/* ------------------------------------------------------ */
+	
+		.chart-ylmm >  .container-chart .section .info {
+			width: 20%;
+			padding-top: 1em;
+			text-align: center;
+
+		}
+
+		.chart-ylmm >  .container-chart .section .info span.chart-position { 
+			width: 100%;
+			float: left;
+			font-size: 51px;
+		}
+
+		.chart-ylmm >  .container-chart .section .info span.chart-time { 
+			width: 100%;
+			float: left;
+			color: #c3c3bf;
+		 }
+	
+		/* ------------------------------------------------------ */
+	
+		.chart-ylmm >  .container-chart .section .main {
+			width: 60%;
+			padding: 0.5em;
+			position: relative;
+		}
+
+		.chart-ylmm >  .container-chart .section .main:before,
+		.chart-ylmm >  .container-chart .section .vote:before {
+			content: '';
+			width: 1px;
+			height: 87%;
+			top: 53%;
+			left: 0;
+			transform: translateY(-50%);
+			background: #ebebe7;
+			position: absolute;
+		}
+
+		.chart-ylmm >  .container-chart .section .main .artist-avatar{
+			width:   91px;
+			height: 91px;
+			float: left;
+			margin-right: 1em;
+			background: url(http://www.billboard.com/images/pref_images/q61469jewko.jpg)no-repeat;
+			background-size: cover;
+			box-shadow: 1px 1px 1px 1px #96968b;
+
+		}
+		.chart-ylmm >  .container-chart .section .main .artist-avatar a{ 
+			width: 100%;
+			height: 100%;
+			float: left;
+		}
+
+		.chart-ylmm >  .container-chart .section .main .artist-song h2 a{ 
+			width: 100%;
+			color: #000000;
+			font-weight: 100;
+		}
+
+		.chart-ylmm >  .container-chart .section .main .artist-name p a{
+			width: 100%;
+		 	color: #01b1e6;
+		  	font-size: 1.0em;
+		 	font-weight: 100;
+		}
+
+		/* ------------------------------------------------------ */
+
+		.chart-ylmm >  .container-chart .section .vote {
+			width: 20%;
+			text-align: center;
+			padding-top: 1em;
+			position: relative;
+		}
+
+		.chart-ylmm >  .container-chart .section .vote .artist-vote-description {
+			width: 100%;
+			margin-bottom: 0.5em;
+		}
+
+		.chart-ylmm >  .container-chart .section .vote .artist-vote-description h4{ 
+			font-size: 12px;
+			color: #bbbbb2; 
+		}
+
+		.chart-ylmm >  .container-chart .section .vote .artist-vote-btn {
+			width: 100%;
+			float: left;
+			padding: 0.5em;
+		}
+
+		.chart-ylmm >  .container-chart .section .vote .artist-vote-btn button{
+			width: 80px;
+			font-size: 12px;
+			color: #fff;
+			border: none;
+			outline: none;
+			font-weight: bold;
+			padding: 0.5em 0;
+			background: #e42693;
+			cursor: pointer;
+			border-radius: 5%;
+
+		}
+
+		/* ------------------------------------------------------ */
+
+		.chart-ylmm >  .container-chart .top-follows {
+			width: 100%;
+			margin-bottom: 1em;
+		} 
+
+		.chart-ylmm >  .container-chart .top-follows ul{
+			text-align: center;
+			margin-top: 1em;
+		}
+
+		.chart-ylmm >  .container-chart .top-follows ul li{ 
+			width: 8em;
+			height: 8em;
+			/*border: 1px solid #b9b9b4;*/
+			display: inline-block;
+			margin-bottom: 1em;
+			position: relative;
+			text-align: center;
+		}
+
+		.chart-ylmm >  .container-chart .top-follows ul li .avatar {
+			width: 80px;
+			height: 80px;
+			margin: auto;
+			border-radius: 50%;
+			/*border: 1px solid #ebebe7;*/
+			background: url(http://www.billboard.com/images/pref_images/q61469jewko.jpg)no-repeat;
+			background-size: cover;
+		}
+
+		.chart-ylmm >  .container-chart .top-follows ul li  .art-name a{
+			width: 100%;
+			float: left;
+			color: #01b1e6;
+			margin-top: 0.5em;
+		}
+
+		.chart-ylmm >  .container-chart .top-follows ul li  .num-follows h5{
+			width: 100%;
+			float: left;
+			color: #000000;
+		}
+
+		.chart-ylmm >  .container-chart .top-follows ul li  .num-follows h5 span{
+		    font-size: 12px;
+		    font-weight: 100;
+		    border-radius: 5%;
+		    padding: 0.1em 0.5em;
+		}
+
+		.chart-ylmm >  .container-chart .top-follows ul li:last-child .avatar  {
+			background: url(http://cdn.bloody-disgusting.com/wp-content/uploads/2017/01/cp3.jpg)no-repeat;
+			background-size: cover;
+		}
+
+		.container-clasificados ul {
+			width: 100%;
+			display: inline-flex;
+			
+		}
+
+		.container-clasificados ul li{
+		    width: 50%;
+		    height: 10em;
+		    cursor: pointer;
+		    text-align: center;
+		    position: relative;
+		    border: 1px solid transparent;
+		    transition: 0s;
+		    margin-bottom: 2%;		
+		}
+
+		.container-clasificados ul li div{ 
+			top: 50%;
+			left: 50%;
+			width: auto;
+			height: auto;
+			position: absolute;
+			transform: translate(-50%, -50%);
+		}
+
+		.container-clasificados ul li:first-child:hover {
+			transition: 0s;
+			background: -webkit-linear-gradient(-45deg, #e42693 , #6e39a6);
+			background: -ms-linear-gradient(-45deg, #e42693 , #6e39a6);
+		}
+
+		.container-clasificados ul li:first-child:hover div h1,
+		.container-clasificados ul li:first-child:hover div p { 
+			color: white;
+			transition: 0s;		
+		}
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+	.chart-ylmm >  .container-chart .section .vote .artist-vote-btn button{
+		font-weight: 400;
+	}
+}

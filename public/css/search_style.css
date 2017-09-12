@@ -1,0 +1,127 @@
+
+	.site-search-form {
+	    display: inline-block;
+	    float: left;
+	    position: relative;
+	    width: 100%;
+	}
+		
+	.search-text-input{
+		color: #01b1e6;
+	    height: 48px;
+	    margin-right: 0;
+	    max-width: 100%;
+	    width: 100%;
+		outline: none;
+		text-indent: 5px;
+		border: 1px solid #ccc9c9;
+		font-size: 10px;
+	}
+
+	.site-search-form .form-submit {
+	    background: transparent;
+	    border: 0;
+	    color: black;
+	    cursor: pointer;
+	    display: inline-block;
+	    font-size: 20px;
+	    height: 100%;
+	    padding: 0;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    width: 49px;
+	    z-index: 999;
+	}
+
+	.container-buscador {
+		position: relative;
+		z-index: 10;
+	}
+
+	.container-buscador .buscador {
+		left: 0%;
+	    top: 50%;
+	    width: 95%;
+	    position: absolute;
+	    transform: translate(3%,-58%);
+	}
+
+	.buscador {
+		left: 0;
+		position: absolute;
+	}
+
+	.buscador .search-list {
+		top: 3em;
+		width: 100%;
+		height: auto;
+		background: white;
+		position: absolute;
+	}
+
+	.buscador .search-list ul {
+		width: 100%;
+		display: block;
+		background: white;
+	}
+
+	.buscador .search-list ul li{ 
+		width: 100%;
+		height: 4em;
+		float: left;
+		cursor: pointer;
+		border: 1px solid #ebebe7;
+	}
+
+	.buscador .search-list ul li .avatar-area{ 
+	    padding: 7px;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    float: left;
+	    border-right: 1px solid #ebebe7;
+	    transform: inherit;
+	    position: relative;
+	    margin-right: 0!important;
+
+	}
+
+	.buscador .search-list ul li .avatar-area .image-area{  
+		width: 3em;
+		height: 3em;
+		background: url(http://www.billboard.com/images/pref_images/q61469jewko.jpg)no-repeat;
+		background-size: cover;
+	}
+
+	.buscador .search-list ul li .data-area{  
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		height: 3em;
+	}
+
+	.buscador .search-list ul li .data-area{ 
+		top: 0;
+		left: 0;
+		width: 20.8em;
+		height: 100%;
+		float: left;
+		padding: 0.5em 0  0 0.5em;
+		text-align: left;
+	    transform: inherit;
+	     position: relative;
+	}
+
+	.buscador .search-list ul li .data-area h2{ 
+		color: #01b1e6;
+		font-size: 16px;
+		font-weight: 100;
+	}
+
+	.buscador .search-list ul li .data-area p{ 
+		color: #c3c3bf;
+		font-size: 12px;
+		font-weight: 100;
+		letter-spacing: 1px;
+	}

@@ -1,0 +1,139 @@
+a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: #365899
+}
+ 
+.facebook-card{
+  background-color: #fff;
+  margin: auto; 
+  border: 2px solid #e1e1e1;
+  width: 100%; 
+  max-width: 630px;
+}
+.facebook-header{
+  padding: 20px 20px 10px 20px;
+  height: 40px;
+  vertical-align: middle;   
+}
+.facebook-user-image{
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.facebook-user-name{
+  margin-left: 5px;
+  font-weight: bold;   
+} 
+
+.facebook-time{
+  color: #90949c;
+  margin-left: 50px;
+  margin-top: -10px;
+ }
+
+.facebook-icon-header{
+  float: right;
+  width: 80px;
+  padding-top: 5px;
+  text-align: right;
+  color: #d6d9dd;
+}
+.facebook-content{
+  margin-left: 15px; 
+}
+
+hr{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;  
+  margin-bottom:10px;
+  margin-left:20px;
+  margin-right:20px;
+}
+.facebook-icons{
+  color:#90949c;
+}
+.facebook-right{
+  float: right;
+  margin-right: 20px;
+  padding-top: 0px;
+  text-align: right;
+}
+.facebook-reactions-icons{
+  margin-left:20px;
+  align-items: center;
+  font-size: 15px;
+}
+.fb-reaction-like{
+  margin-left:0px;
+  color: #5890ff;
+  font-size: 18px;
+} 
+.fb-reaction-heart{
+  margin-left:-3px;
+  color: #f25268;
+  font-size: 18px;
+}
+.fb-reaction-face{
+  color: #ffd990;
+  margin-left:2px;
+  font-size: 18px;
+}
+.fb-reactions-num{
+  margin-left: 0px;
+  font-size: 16px;    
+}
+.facebook-content-comments{
+  background-color:#f6f7f9;
+  padding-bottom: 20px;
+}
+.facebook-comments{
+  padding-top:2px;
+  margin-left: 20px;
+}
+.user-comment{
+  font-weight:bold;
+}
+.fb-comments-user-image{
+  margin-top:15px;
+}
+.fb-comments-user-comment{
+  margin-top: -55px;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+.fb-comments-user-image-2{
+  margin-top: -20px;
+}
+.fb-comments-user-comment-2{
+  margin-top: -60px;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+.fb-comments-user-image-3{
+  margin-top: -20px;
+}
+.fb-comments-user-comment-3{
+  margin-top: -60px;
+  margin-left: 20px;
+  line-height: 1.5;  
+}
+
+.comments-input{
+  border: 1px solid #dddfe2;
+  margin-left: 1px;
+  width: 87%;
+  padding-top: 20px;
+}
+.action-icon-camera{
+  margin: 10px 10px 1px 8px;
+  color: #90949c;
+  float: right;
+}
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+  .facebook-user-name{
+    font-weight: 400;
+  }
+}

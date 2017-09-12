@@ -1,0 +1,76 @@
+.members-link{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+    .members-link, .submit_btn{
+        font-weight: 400;
+    }
+}
+
+.members-link:hover{
+    color: #e42693;
+}
+
+.show-about.genres{
+    font-size: 12px;
+}
+
+  body > div:nth-child(4) > div > div > div:nth-child(3){
+
+  width: 50em;
+  text-align: center;
+  position: relative;
+  float: none;
+  margin: 1em auto 5em auto;
+  line-height: 27px;
+
+  }
+
+  .boton{
+    bottom: -3px;
+    width: 1em;
+    height: 1em;
+    color: #e42693;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    background: url(../../images/arrow-bottom.png)no-repeat;
+    background-size: cover;
+    transform: translate(-50%,-50%);
+    padding-top: 0.3em;
+    right: 0;
+}
+
+.user-post-area{
+    width: 100%;
+    height: 8em;
+    position: relative;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0.5em;
+    resize: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 0.5em;  
+}
+
+.submit_btn{
+    bottom: 25.5em;
+    right: 19.3em;
+    float: right;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(-45deg, #e42693 , #6e39a6);
+    background: -ms-linear-gradient(-45deg, #e42693 , #6e39a6);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.4em 1em 0.4em 1em;
+}

@@ -1,0 +1,30 @@
+.container{width:100%;height:100%;margin:0;padding:0;}
+.container .header-content{background:url(../../images/banners1.png) no-repeat;background-size:cover;position:static;width:100%;height:95vh;}
+.header-content nav{width:100%;height:66px;padding:20px;box-sizing:border-box;}
+.header-content nav ul{float:right;}
+.header-content nav ul li{display:inline;}
+.header-content nav ul li a{color:white;margin:12px;font-size:12px;text-decoration:none;}
+.header-content nav ul li:nth-child(2){background:#6BBD46;width:100px;height:25px;padding-bottom:4px;}
+.header-content .info{width:760px;height:320px;top:20%;position:relative;background:url(../../images/ylmm-home.png) no-repeat;background-size:100%;}
+.home-section{width:100%;height:auto;background:#fff;padding:47px;text-align:center;box-sizing:border-box;}
+.home-section .contenedor .inner h4{margin:0px;margin-top:25.201px;margin-bottom:21px;}
+.home-section.experiencia{background:url(../../images/banners3.png) no-repeat;background-size:cover;color:#fff;height:311px;letter-spacing:2px;}
+.home-section.experiencia h2,
+.home-section.experiencia h3{margin-bottom:10px;position:relative;top:30%;}
+.home-section.experiencia button{color:#000;background:#fff;width:313px;height:45px;position:relative;border:none;outline:none;cursor:pointer;margin-top:83px;font-weight:700;letter-spacing:2px;}
+.home-section.destacadas{height:auto;}
+.home-section.destacadas ul{text-decoration:none;margin-top:2em;}
+.home-section.destacadas ul li a{text-decoration:none;}
+.info-band{width:100%;height:100%;top:-200px;position:relative;}
+.info-band img{margin-bottom:1em;margin-left:60px;}
+.info-band h5{color:#fff;}
+.slider{overflow:hidden;max-height:17em;width:83em;}
+.home-section.sponsors{background:#000;min-height:300px;color:#fff;}
+.home-section.sponsors h1{font-weight:500;letter-spacing:2px;}
+.home-section .bullets ul,
+.home-section.sponsors ul{text-decoration:none;}
+.home-section .bullets ul li{width:23px;height:23px;border-radius:50%;background:#000;cursor:pointer;}
+.home-section .bullets{position:absolute;text-align:center;left:45%;}
+.home-section .bullets ul li.active{background:#6BBD46;}
+.home-section.sponsors ul li{display:inline;width:19%;height:150px;float:left;margin-top:49px;}
+.inner a{color:#000;text-decoration:none;}

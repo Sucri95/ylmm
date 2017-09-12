@@ -1,0 +1,57 @@
+  .submit_btn{
+
+    right: 2px;
+    bottom: -40px;
+    float: right;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(-45deg, #e42693 , #6e39a6);
+    background: -ms-linear-gradient(-45deg, #e42693 , #6e39a6);
+    font-weight: bold;
+    position: absolute;
+    text-transform: uppercase;
+    padding: 0.4em 1em 0.4em 1em;
+  
+  }
+  @supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+      .submit_btn{
+        font-weight: 400;
+      }
+  }
+
+  .coments-container {
+    padding: 2.5em 1em!important;
+  }
+
+.like-band {
+    top: 1.5em!important;
+    width: 1.5em!important;
+    height: 1.9em!important;
+    cursor: pointer!important;
+    position: absolute!important;
+    background: url(../../images/resources/like_off.png)no-repeat!important;
+    background-size: 100% 100%!important;
+    margin-left: 5em;
+}
+.like-band.active {
+    background: url(../../images/resources/like_on.png)no-repeat!important;
+    background-size: 100% 100%!important;
+}
+
+  
+    .coments-container .coment-list .coment-post {
+      height: auto!important;
+    }
+
+    #respuestacomentario > div > textarea,
+    #respuesta2 > div > textarea{
+      width: 67.3em;
+    }
+
+    #respuestacomentario,
+    #respuesta2 {
+      margin-left: 4.5em;
+    }

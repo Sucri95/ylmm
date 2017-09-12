@@ -1,0 +1,132 @@
+.titlekey{
+	margin-top: -1.5em;
+    text-align: center;
+    margin-left: 8em;
+    color: #fff!important;
+}
+
+.statuskey{
+	font-size: 12px;
+	margin-left: 25em;
+}
+
+.video.row.keys{
+	width: 360px!important;
+	height: 270px!important;
+	float: left!important;
+	margin: 0em 2em 5em 1em!important;
+}
+
+.btn-green.dark.my-right.btn-sosfan.key{
+	top: -2%;
+	left: 12em;
+	right: 0!important;
+	width: 10em;
+	height: 2em;
+	position: absolute;
+}
+.fankeytag{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: -1px;
+	left: 0;
+	font-size: 11px;
+}
+.container {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.inner-container {
+	width: 73em;
+	height: auto;
+	margin: auto;
+}
+
+.slider-area,
+.video-area {
+	height: auto;
+	float: left;
+}
+
+.video-area {
+	width: 70%;
+}
+
+.slider-area {
+	width: 30%;
+}
+
+.my-right.votes{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.input-type-1.select-type-1.selectvotes{
+	width: 90%!important;
+	position: relative;
+	padding: 1em;
+	margin-left: 1em;
+	min-width: 0!important;
+	color: #e42693;
+	background: white;
+}
+
+.btn-green-1.keys{
+	margin-left: 4%;
+	width: 17.5em;
+	height: 49px;
+}
+
+input.error,
+select.error  {
+	border: 1px solid #ff3131;
+}
+
+input.success,
+select.success {
+  border: 1px solid #6bff6b;
+}
+
+
+@media (max-width: 850px){
+
+	.video-area {
+	  padding: 0.4em!important;
+	}
+
+	.slider-area {
+	  width: 318px!important;
+	  height: auto;
+	  float: left;
+	  margin: 13px 23px;
+
+	}
+
+	.btn-purple.battle-button {
+	  width: 90%!important;
+	  height: 38px!important;
+	  margin: 1.5em 0px 1em 13px;
+	}
+
+	.input-type-1.select-type-1.selectvotes {
+		padding: 0em;
+	}
+
+	.video.row.keys{
+	  width: 318px!important;
+	  height: 270px!important;
+	  float: left!important;
+	  margin: 0em 2em 5em 1em!important;
+	}
+
+	.container .inner-container{
+	  width: 22.4em;
+	  height: auto;
+	  margin: auto;
+	  /*float: left;*/
+	}
+}
